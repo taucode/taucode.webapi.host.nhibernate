@@ -18,9 +18,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F37A2005-84E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51D1661F-082E-438C-B047-ED4EC186A0EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Host.NHibernate", "src\TauCode.WebApi.Host.NHibernate\TauCode.WebApi.Host.NHibernate.csproj", "{99AAE798-3D28-45BF-B5EF-7779265942AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.NHibernate", "src\TauCode.WebApi.Host.NHibernate\TauCode.WebApi.Host.NHibernate.csproj", "{99AAE798-3D28-45BF-B5EF-7779265942AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Host.NHibernate.Tests", "tests\TauCode.WebApi.Host.NHibernate.Tests\TauCode.WebApi.Host.NHibernate.Tests.csproj", "{6FD0657A-424A-4720-8BD1-1F8501E99844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.NHibernate.Tests", "tests\TauCode.WebApi.Host.NHibernate.Tests\TauCode.WebApi.Host.NHibernate.Tests.csproj", "{6FD0657A-424A-4720-8BD1-1F8501E99844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{7AC58E3B-38D6-434D-A581-46163B7DC23F}"
+	ProjectSection(SolutionItems) = preProject
+		build\azure-pipelines-dev.yml = build\azure-pipelines-dev.yml
+		build\azure-pipelines.yml = build\azure-pipelines.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
